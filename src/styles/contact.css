@@ -1,0 +1,51 @@
+.top_title{
+    background-image: url("../images/contact_bg_1.png");
+    height: 100%;
+    padding: 30px 0;
+    width: 100%;
+}
+.title {
+    padding-bottom: 5px;
+    padding-top: 30px;
+}
+
+.top_title .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.form{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.input_field{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+input{
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+}
+#select{
+    width: 100%;
+    padding: 10px 20px;
+    outline:none;
+    border: none;
+}
+textarea{
+    width: 100%;
+    padding: 10px 20px;
+    height:100px;
+    margin-bottom: 30px;
+    outline:none;
+    border: none;
+    resize: none;
+}
+.form button:hover{
+    color: blue;
+}

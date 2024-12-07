@@ -1,0 +1,44 @@
+body {
+    background-color: #f3f6fb;
+}
+
+.navbar {
+    margin: 30px 0 50px 0;
+}
+
+.navbar ul li a {
+    color: #202020;
+}
+.books{
+    background-image: url(../images/category_bg_1\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.books h2 {
+    margin-top: 50px;
+    padding-top: 40px;
+}
+
+.book1, .book2 ol li {
+    font-weight: 600;
+}
+
+.book_wrap h4 {
+    color: #0d5ef3;
+    margin-bottom: 10px;
+}
+
+.book2 {
+    margin-right: 100px;
+}
+
+.book_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0 70px 0;
+}
+
+.book_wrap ol {
+    margin-left: 30px;
+}

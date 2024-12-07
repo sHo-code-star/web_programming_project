@@ -1,0 +1,12 @@
+body{
+    min-height: 100vh;
+    background-color:#f3f6fb ;
+}
+
+.navbar{
+    margin:30px 0
+}
+
+.navbar ul li a{
+    color: #202020;
+}
